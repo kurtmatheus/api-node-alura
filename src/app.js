@@ -16,8 +16,4 @@ const app = express();
 
 routes(app);
 
-app.get("/", (req, res) => {
-    res.status(200).send("Hello World from Express!");
-});
-
 export default app;
